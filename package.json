@@ -1,0 +1,34 @@
+{
+  "name": "glob-lr",
+  "version": "0.1.0",
+  "description": "A livereload cli tool that eats globs.",
+  "main": "index.js",
+  "bin": {
+    "glob-lr": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSKrepps/glob-lr.git"
+  },
+  "keywords": [
+    "livereload",
+    "glob",
+    "cli"
+  ],
+  "author": "DSKrepps <DSKrepps@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DSKrepps/glob-lr/issues"
+  },
+  "homepage": "https://github.com/DSKrepps/glob-lr#readme",
+  "dependencies": {
+    "chokidar": "^1.6.0",
+    "debug": "^2.2.0",
+    "lodash.debounce": "^4.0.6",
+    "minimist": "^1.2.0",
+    "tiny-lr": "^0.2.1"
+  }
+}
