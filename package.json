@@ -1,6 +1,6 @@
 {
   "name": "glob-lr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A livereload cli tool that eats globs.",
   "main": "index.js",
   "bin": {
